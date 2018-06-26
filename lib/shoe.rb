@@ -9,7 +9,7 @@ class Shoe
   attr_reader :brand
 
   def cobble
-    puts "The shoes have been repaired."
+    puts "Your shoe is as good as new!"
     Shoe.condition = "new"
   end
 
